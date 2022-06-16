@@ -238,6 +238,7 @@
 .sessionTime{
   margin-left: 16px;
   width: 130px;
+  white-space: nowrap;
 }
 
 
