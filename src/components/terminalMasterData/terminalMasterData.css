@@ -48,6 +48,7 @@
     height: 64px;
     overflow-y: auto;
     resize: none;
+    color: var(--color-black);
 }
 
 .emptyfield {

@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?zrmrk');
-  src:  url('fonts/icomoon.eot?zrmrk#iefix') format('embedded-opentype'),
+  src: url('fonts/icomoon.eot?zrmrk');
+  src: url('fonts/icomoon.eot?zrmrk#iefix') format('embedded-opentype'),
     url('fonts/icomoon.ttf?zrmrk') format('truetype'),
     url('fonts/icomoon.woff?zrmrk') format('woff'),
     url('fonts/icomoon.svg?zrmrk#icomoon') format('svg');
@@ -10,7 +10,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -29,73 +30,93 @@
   content: "\e900";
   color: var(--color-primary-default);
 }
+
 .icon-auto-indent:before {
   content: "\e901";
   color: var(--color-primary-default);
 }
+
 .icon-cbr-report:before {
   content: "\e902";
   color: var(--color-primary-default);
 }
+
 .icon-Dashboard:before {
   content: "\e903";
   color: var(--color-primary-default);
 }
+
 .icon-Hamburger-Menu:before {
   content: "\e904";
+  color: var(--color-black);
+  font-size: 24px;
 }
+
 .icon-indent:before {
   content: "\e905";
   color: var(--color-primary-default);
 }
+
 .icon-minus:before {
   content: "\e906";
   color: #fff;
 }
+
 .icon-notification:before {
   content: "\e907";
   color: var(--color-primary-default);
 }
+
 .icon-plus:before {
   content: "\e908";
   color: #fff;
 }
+
 .icon-profile:before {
   content: "\e909";
   color: var(--color-primary-default);
 }
+
 .icon-Reports:before {
   content: "\e90a";
   color: var(--color-primary-default);
 }
+
 .icon-Search:before {
   content: "\e90b";
   color: var(--color-primary-default);
 }
+
 .icon-search-header:before {
   content: "\e90c";
   color: var(--color-primary-default);
 }
+
 .icon-settings:before {
   content: "\e90d";
   color: var(--color-primary-default);
 }
+
 .icon-Sort-icon:before {
   content: "\e90e";
   color: #868686;
 }
+
 .icon-Table-Sorting:before {
   content: "\e90f";
   color: #868686;
 }
+
 .icon-transaction:before {
   content: "\e910";
   color: var(--color-primary-default);
 }
+
 .icon-upload:before {
   content: "\e911";
   color: var(--color-primary-default);
 }
+
 .icon-vertical-line:before {
   content: "\e912";
   color: var(--color-primary-default);
