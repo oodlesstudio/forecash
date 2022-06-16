@@ -105,7 +105,7 @@ const TerminalMasterDataWindow = () => {
               >
                 {/* Search Field And Buttons */}
                 <div className="remitter-SearchField full-width">
-                  <div className="form-group has-search hasRemitter-Search full-width">
+                  <div className="form-group has-search hasTerminal-Search full-width">
                     <input
                       type="text"
                       className="form-control inputTextBox"
@@ -511,7 +511,7 @@ const TerminalMasterDataWindow = () => {
                     name="address"
                     id="address"
                     placeholder="Enter Address"
-                    className="inputTextAreaBox inputArea"
+                    className="inputTextAreaBox  inputArea"
                   />
                 </div>
 

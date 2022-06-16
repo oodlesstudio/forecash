@@ -26,7 +26,7 @@
 }
 
 
-.has-search.hasRemitter-Search .form-control {
+.has-search.hasTerminal-Search .form-control {
     width: 220px;
     height: 32px;
     border-color: var(--color-border-default);
@@ -99,7 +99,7 @@
 @media(max-width:767px) {
 
     /* new issue Css */
-    .has-search.hasRemitter-Search .form-control {
+    .has-search.hasTerminal-Search .form-control {
         width: 24vw;
     }
 }
@@ -107,7 +107,7 @@
 @media(max-width:615px) {
 
     /* new issue Css */
-    .has-search.hasRemitter-Search .form-control {
+    .has-search.hasTerminal-Search .form-control {
         width: 100%;
     }
 
@@ -139,7 +139,7 @@
         flex-direction: column;
     }
 
-    .has-search.hasRemitter-Search .form-control {
+    .has-search.hasTerminal-Search .form-control {
         width: 100%;
 
     }
@@ -155,10 +155,10 @@
         margin-top: 12px;
     }
 
-    .has-search:first-child {
+    /* .has-search:first-child {
         margin-right: 0px;
         margin-bottom: 12px;
-    }
+    } */
 
 
     .searchFieldsBtns {

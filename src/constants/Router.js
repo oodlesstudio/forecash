@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Components
 
 import TerminalMasterData from "../pages/TerminalMasterData";
+import ReportPage from "../pages/ReportPage";
 
 const router = () => {
   return (
@@ -10,6 +11,7 @@ const router = () => {
       <Routes>
         <Route path="/" element={<TerminalMasterData />} />
         <Route path="/reports/atm-master-data" element={<TerminalMasterData />} />
+        <Route path="/reports/reports" element={<ReportPage />} />
       </Routes>
     </BrowserRouter>
   );

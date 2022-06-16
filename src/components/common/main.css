@@ -209,10 +209,12 @@
 
 .inputTextAreaBox::placeholder {
   font-family: "Inter";
-  font-size: var(--font-size14);
-  letter-spacing: 0.02em;
-  color: var(--disabled-text-color);
+    font-size: var(--font-size14);
+    letter-spacing: 0.02em;
+    color: var(--disabled-text-color);
 }
+
+
 /* File Configuration */
 /* Config Left */
 .configMainContent .configLeft {
